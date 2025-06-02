@@ -1,31 +1,16 @@
 # This .gitignore file lists content that does NOT need to be tracked in the project history
 
-# ----------------------------------------
-# macOS system files (always ignore)
-# ----------------------------------------
-.DS_Store
+# Python virtual environment folder
+.venv/
 
-# ----------------------------------------
-# Visual Studio Code (always ignore)
-# ----------------------------------------
+# Visual Studio Code settings and workspace folder
 .vscode/
 
-# ----------------------------------------
-# Environment variables and secrets (always ignore)
-# ----------------------------------------
-.env
-.env.*
-
-# ----------------------------------------
-# Python (ignore for all Python projects)
-# ----------------------------------------
-.venv/
+# Compiled Python files
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
 
-# ----------------------------------------
-# Jupyter Notebook (basic ignore)
-# ----------------------------------------
+# macOS system files
+.DS_Store
+
+# Jupyter Notebook
 .ipynb_checkpoints
