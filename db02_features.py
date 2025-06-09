@@ -28,10 +28,9 @@ def main():
         print(f"[\u2713] Connected to database: {db_path.name}")
 
         # Execute SQL feature scripts (update/delete/select/etc.)
-        execute_sql_file(conn, sql_folder / "01_update_book_year.sql")
-        execute_sql_file(conn, sql_folder / "02_update_author_name.sql")
-        execute_sql_file(conn, sql_folder / "03_delete_duplicate_authors.sql")
-        execute_sql_file(conn, sql_folder / "04_select_books_after_1950.sql")
+        execute_sql_file(conn, sql_folder / "delete_records.sql")
+        execute_sql_file(conn, sql_folder / "update_records.sql")
+    
 
         print("[\u2713] Feature queries executed successfully.")
     except Exception as e:
