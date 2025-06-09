@@ -1,0 +1,53 @@
+2025-06-04 23:00:12.614 | INFO     | __main__:<module>:41 - Logging to file: logs\project_log.log
+2025-06-04 23:00:12.615 | INFO     | __main__:main:63 - STARTING utils_logger.py
+2025-06-04 23:00:12.615 | INFO     | __main__:log_example:54 - This is an example info message.
+2025-06-04 23:00:12.615 | WARNING  | __main__:log_example:55 - This is an example warning message.
+2025-06-04 23:00:12.615 | ERROR    | __main__:log_example:56 - This is an example error message.
+2025-06-04 23:00:12.616 | INFO     | __main__:main:68 - View the log output at logs\project_log.log
+2025-06-04 23:00:12.616 | INFO     | __main__:main:69 - EXITING utils_logger.py.
+2025-06-08 22:08:28.445 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-08 22:08:28.446 | INFO     | __main__:main:24 - Starting database setup...
+2025-06-08 22:08:28.447 | INFO     | __main__:main:38 - [✓] Connected to database: C:\Projects\Repos\datafun-05-sql\data\project.sqlite3
+2025-06-08 22:08:28.469 | INFO     | __main__:execute_sql_file:18 - [✓] Executed: C:\Projects\Repos\datafun-05-sql\sql_create\01_drop_tables.sql
+2025-06-08 22:08:28.481 | INFO     | __main__:execute_sql_file:18 - [✓] Executed: C:\Projects\Repos\datafun-05-sql\sql_create\02_create_tables.sql
+2025-06-08 22:08:28.483 | ERROR    | __main__:execute_sql_file:20 - [!] Failed to execute C:\Projects\Repos\datafun-05-sql\sql_create\03_insert_records.sql: table authors has no column named name
+2025-06-08 22:08:28.483 | ERROR    | __main__:main:47 - [!] Error during database setup: table authors has no column named name
+2025-06-08 22:08:28.484 | INFO     | __main__:main:50 - [✓] Database connection closed.
+2025-06-08 22:31:15.667 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-08 22:31:15.668 | INFO     | __main__:main:38 - Starting database setup...
+2025-06-08 22:31:15.669 | INFO     | __main__:main:52 - Connected to database: C:\Projects\Repos\datafun-05-sql\data\project.sqlite3
+2025-06-08 22:31:15.676 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\Repos\datafun-05-sql\sql_create\01_drop_tables.sql
+2025-06-08 22:31:15.684 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\Repos\datafun-05-sql\sql_create\02_create_tables.sql
+2025-06-08 22:31:15.688 | ERROR    | __main__:execute_sql_file:32 - Failed to execute C:\Projects\Repos\datafun-05-sql\sql_create\03_insert_records.sql: unrecognized token: "'16f3e0a1-24cb-4ed6-a50"
+2025-06-08 22:31:15.688 | ERROR    | __main__:main:62 - Error during database setup: unrecognized token: "'16f3e0a1-24cb-4ed6-a50"
+2025-06-08 22:31:15.689 | INFO     | __main__:main:65 - Database connection closed.
+2025-06-08 22:31:32.445 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-08 22:31:32.445 | INFO     | __main__:main:38 - Starting database setup...
+2025-06-08 22:31:32.446 | INFO     | __main__:main:52 - Connected to database: C:\Projects\Repos\datafun-05-sql\data\project.sqlite3
+2025-06-08 22:31:32.447 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\Repos\datafun-05-sql\sql_create\01_drop_tables.sql
+2025-06-08 22:31:32.454 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\Repos\datafun-05-sql\sql_create\02_create_tables.sql
+2025-06-08 22:31:32.457 | ERROR    | __main__:execute_sql_file:32 - Failed to execute C:\Projects\Repos\datafun-05-sql\sql_create\03_insert_records.sql: unrecognized token: "'16f3e0a1-24cb-4ed6-a50"
+2025-06-08 22:31:32.457 | ERROR    | __main__:main:62 - Error during database setup: unrecognized token: "'16f3e0a1-24cb-4ed6-a50"
+2025-06-08 22:31:32.458 | INFO     | __main__:main:65 - Database connection closed.
+2025-06-08 23:11:49.761 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-08 23:11:49.761 | INFO     | __main__:main:40 - Starting query execution from sql_queries folder...
+2025-06-08 23:11:49.762 | INFO     | __main__:main:54 - Connected to database: C:\Projects\Repos\datafun-05-sql\data\project.sqlite3
+2025-06-08 23:11:49.772 | INFO     | __main__:execute_sql_file:17 - Executing: query_aggregation.sql
+2025-06-08 23:11:49.773 | ERROR    | __main__:execute_sql_file:36 - Failed to execute query_aggregation.sql: no such column: first
+2025-06-08 23:11:49.774 | ERROR    | __main__:main:62 - Query execution failed: no such column: first
+2025-06-08 23:11:49.774 | INFO     | __main__:main:66 - Database connection closed.
+2025-06-08 23:13:27.794 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-08 23:13:27.795 | INFO     | __main__:main:40 - Starting query execution from sql_queries folder...
+2025-06-08 23:13:27.796 | INFO     | __main__:main:54 - Connected to database: C:\Projects\Repos\datafun-05-sql\data\project.sqlite3
+2025-06-08 23:13:27.812 | INFO     | __main__:execute_sql_file:17 - Executing: query_aggregation.sql
+2025-06-08 23:13:27.814 | INFO     | __main__:execute_sql_file:33 - Executed successfully: query_aggregation.sql
+2025-06-08 23:13:27.825 | INFO     | __main__:execute_sql_file:17 - Executing: query_filter.sql
+2025-06-08 23:13:27.827 | INFO     | __main__:execute_sql_file:33 - Executed successfully: query_filter.sql
+2025-06-08 23:13:27.839 | INFO     | __main__:execute_sql_file:17 - Executing: query_group_by.sql
+2025-06-08 23:13:27.841 | INFO     | __main__:execute_sql_file:33 - Executed successfully: query_group_by.sql
+2025-06-08 23:13:27.855 | INFO     | __main__:execute_sql_file:17 - Executing: query_join.sql
+2025-06-08 23:13:27.857 | INFO     | __main__:execute_sql_file:33 - Executed successfully: query_join.sql
+2025-06-08 23:13:27.868 | INFO     | __main__:execute_sql_file:17 - Executing: query_sorting.sql
+2025-06-08 23:13:27.871 | INFO     | __main__:execute_sql_file:33 - Executed successfully: query_sorting.sql
+2025-06-08 23:13:27.871 | INFO     | __main__:main:59 - Query execution completed.
+2025-06-08 23:13:27.872 | INFO     | __main__:main:66 - Database connection closed.
